@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+/* img {
+    margin-top: 100px;
+} */
+
+#form-logo {
+    margin-right: 30%; 
+}
+
+#logos:hover {
+    background-color: rgb(34, 115, 236);
+}
+
+#logos {
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+
+#shop-now {
+    position: relative;
+    top: 450px;
+    left: 600px;
+}
+
+footer {
+    color: aliceblue;
+    background-color: rgb(34, 115, 236);
+}
+
+li a {
+    color: aliceblue;
+}
+
+a[href="#"] {
+    color: aliceblue
+}

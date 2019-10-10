@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toilet Paper Depot</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand font-weight-bold" href="#"><i class="fas fa-toilet-paper"></i> Toilet Paper Depot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Product
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#myUL">Angel Soft Bath Tissue</a>
+                        <a class="dropdown-item" href="#myUL">Scott Toilet Paper</a>
+                        <a class="dropdown-item" href="#myUL">Quilted Northern Ultra Plush Toilet Paper</a>
+                        <a class="dropdown-item" href="#myUL">Cottonelle Ultra ComfortCare Toilet Paper</a>
+                        <a class="dropdown-item" href="#myUL">Charmin Ultra Soft Toilet Paper</a>
+                        <a class="dropdown-item" href="#myUL">Charmin Ultra Soft Toilet Paper</a>
+                        <a class="dropdown-item" href="#myUL">Charmin Essentials Soft</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 pl-5" id="form-logo">
+                <input id="myInput" onkeyup="myFunction()" class="form-control pr-5" type="text" placeholder="Search here" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit" id="logos"><i class="fas fa-search"></i></button>
+            </form>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit" id="logos" id="cart"><i class="fas fa-shopping-cart"></i></button>
+            </form>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+
+    <div class="jumbotron">
+        <h1 class="display-4 text-center mb-5 font-italic">Welcome to Toilet Paper Home Depot</h1>
+        <p class="lead text-center font-weight-bold font-italic">The home for the best comfort rooms together with their quality toilet paper.</p>
+        <a id="shop-now" class="btn btn-primary btn-lg float-sm-none" href="#content" role="button">Shop Now</a>
+    </div>
+
+    <!-- End Jumbotron -->
+
+    <!-- Content goes here -->
+
+    <div class="container">
+        <div id="content">
+            <div class="row">
+            <div class="col-md">
+                <div class="card mt-4" style="width: 18rem;">
+                    <img src="https://www.wisebread.com/files/fruganomics/u5171/angel%20soft.jpg&w=500" class="card-img-top" alt="...">
+                    <div class="card-body" id="myUL">
+                        <h5 class="card-title">Angel Soft Bath Tissue </h5>
+                        <p class="card-text">Price: $12.62</p>
+                        <div class="row">
+                            <div class="col-md">
+                                <a class="btn btn-primary add">Add to cart</a>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mt-4" style="width: 18rem;">
+                    <img src="https://www.wisebread.com/files/fruganomics/u5171/scott.jpg&w=500"
+                        class="card-img-top" alt="...">
+                    <div class="card-body" id="myUL">
+                        <h5 class="card-title">Scott Toilet Paper</h5>
+                        <p class="card-text">Price: $13.32</p>
+                        <div class="row">
+                            <div class="col-md">
+                                <a class="btn btn-primary add">Add to cart</a>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="https://www.wisebread.com/files/fruganomics/u5171/quilted.jpg&w=500"
+                    class="card-img-top" alt="...">
+                <div class="card-body" id="myUL">
+                    <h5 class="card-title">Quilted Northern Ultra Plush Toilet Paper</h5>
+                    <p class="card-text">Price: $11.30</p>
+                    <div class="row">
+                        <div class="col-md">
+                            <a class="btn btn-primary add">Add to cart</a>
+                        </div>
+                        <div class="col-md">
+                            <a class="btn btn-primary">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md">
+                <div class="card mt-4" style="width: 18rem;">
+                    <img src="https://www.wisebread.com/files/fruganomics/u5171/cottonelle.jpg&w=500"
+                        class="card-img-top" alt="...">
+                    <div class="card-body" id="myUL">
+                        <h5 class="card-title">Cottonelle Ultra ComfortCare Toilet Paper</h5>
+                        <p class="card-text">Price: $16.03</p>
+                        <div class="row">
+                            <div class="col-md">
+                                <a class="btn btn-primary add">Add to cart</a>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mt-4" style="width: 18rem;">
+                    <img src="https://www.wisebread.com/files/fruganomics/u5171/charmin.jpg&w=500" class="card-img-top"
+                        alt="...">
+                    <div class="card-body" id="myUL">
+                        <h5 class="card-title">Charmin Ultra Soft Toilet Paper</h5>
+                        <p class="card-text">Price: $15.03</p>
+                        <div class="row">
+                            <div class="col-md">
+                                <a class="btn btn-primary add">Add to cart</a>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mt-4" style="width: 18rem;">
+                    <img src="https://www.wisebread.com/files/fruganomics/u5171/charmin.jpg&w=500" class="card-img-top"
+                        alt="...">
+                    <div class="card-body" id="myUL">
+                        <h5 class="card-title">Charmin Essentials Soft</h5>
+                        <p class="card-text">Price: $10.20</p>
+                        <div class="row">
+                            <div class="col-md">
+                                <a class="btn btn-primary add">Add to cart</a>
+                            </div>
+                            <div class="col-md">
+                                <a class="btn btn-primary">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Toilet Paper Home Depot</h5>
+                    
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Tell us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">About us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Affiliate Program</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+    
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Customer Care</h5>
+    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#!">How to buy</a>
+                        </li>
+                        <li>
+                            <a href="#!">How to return</a>
+                        </li>
+                        <li>
+                            <a href="#!">Shipping & Delivery</a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a h"> toiletpaperdepot.com</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+
+
+
+<script src="assets/js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
